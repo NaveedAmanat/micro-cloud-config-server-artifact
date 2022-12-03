@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-config-server-app
-          image: naveed0004/cloud-config-server:latest
+          image: naveed0004/cloud-config-server:1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9296
